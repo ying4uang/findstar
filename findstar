@@ -1,0 +1,3 @@
+#!/bin/bash      
+
+python findstar.py $1

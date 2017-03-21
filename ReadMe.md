@@ -45,7 +45,7 @@ group by cust.customer_id, cust.customer_name
 
 ```
 
-** largest consecutive increase **
+**largest consecutive increase**
 
 
 ```

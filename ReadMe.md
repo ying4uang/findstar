@@ -44,8 +44,7 @@ on cust.customer_id = ord.customer_id
 group by cust.customer_id, cust.customer_name
 
 ```
-**
-max consecutive increase**
+** largest consecutive increase**
 
 ```
 select customer_id, (case when max(quantity_increase)> 0 then max(quantity_increase) else 0 end) as max_incrase from
@@ -91,7 +90,6 @@ findstar.py:
  26
  27 except ValueError:
  28     print("Please enter an integer")
-~
 
 
 ```
